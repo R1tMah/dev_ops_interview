@@ -9,7 +9,7 @@ COPY . .
 RUN pip install -r requirements.txt
 
 # runtime config
-ENV PORT=5000
+ENV PORT=3000
 EXPOSE $PORT
 
 # start the app (dev server)
